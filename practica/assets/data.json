@@ -1,0 +1,10 @@
+{
+    "users":[
+        {
+        "nombre": "Juan",
+        "edad": 25,
+        "casado": "false"
+        }
+    ]
+}
+  
