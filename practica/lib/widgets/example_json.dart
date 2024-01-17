@@ -8,11 +8,14 @@ class ExampleJson extends StatelessWidget {
   @override
   // ignore: always_specify_types
   Widget build(BuildContext context) => FutureBuilder(
-        future: readFiel('assets/data.json'),
+        future: readFiel('path'),
         // ignore: strict_raw_type, always_specify_types
         builder: (BuildContext context, AsyncSnapshot snapshot) {
           if (snapshot.hasData) {
-            return Text(snapshot.data!);
+            final user = snapshot.data![0];
+            return Text(
+              'nombre:${user['nombre']} edad:${user['edad']}, casado:${user['casado']}',
+            );
           } else {
             return CircularProgressIndicator();
           }

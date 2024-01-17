@@ -1,9 +1,9 @@
 import 'dart:convert';
-import 'dart:io';
 
-Future<dynamic> readFiel(String path) async {
-  File file = File('assets/data.json');
-  String fileString = await file.readAsString();
+import 'package:flutter/services.dart';
+
+Future<List<dynamic>> readFiel(String path) async {
+  String fileString = await rootBundle.loadString('assets/data.json');
   Map<String, dynamic> json = jsonDecode(fileString);
-  return json['users'][0];
+  return json['users'];
 }
