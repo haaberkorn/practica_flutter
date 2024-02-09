@@ -1,4 +1,6 @@
 import 'dart:ffi';
+import 'package:practica/main.dart';
+import 'example_function.dart';
 
 class ModeloUser {
   ModeloUser({

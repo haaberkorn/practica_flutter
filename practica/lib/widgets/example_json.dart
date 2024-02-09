@@ -8,7 +8,7 @@ class ExampleJson extends StatelessWidget {
   @override
   // ignore: always_specify_types
   Widget build(BuildContext context) => FutureBuilder(
-        future: readFiel('path'),
+        future: readFile('path'),
         // ignore: strict_raw_type, always_specify_types
         builder: (BuildContext context, AsyncSnapshot snapshot) {
           if (snapshot.hasData) {
