@@ -11,6 +11,6 @@ class ModeloUser {
   });
   String nombre;
   int edad;
-  Bool casado;
+  bool casado;
   String pais;
 }

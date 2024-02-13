@@ -6,31 +6,31 @@
         {
         "nombre": "keyner",
         "edad": 50,
-        "casado": "true",
+        "casado": true,
         "pais":"venezuela"
         },
         {
         "nombre": "alanis",
         "edad": 25,
-        "casado": "true",
+        "casado": true,
         "pais":"portugal"
         },
         {
         "nombre": "eduardoNietoPeraa",
         "edad": 25,
-        "casado": "false",
+        "casado": false,
         "pais":"colombia"
         },
         {
         "nombre": "gabriel",
         "edad": 27,
-        "casado": "false",
+        "casado": false,
         "pais":"venezuela"
         },
         {
         "nombre": "eduardoCedenoCulon",
         "edad": 28,
-        "casado": "false",
+        "casado": false,
         "pais":"estados unidos"
         }
     ]
